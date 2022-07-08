@@ -1,85 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+   margin: 0;
+   padding: 0;
+   border: none;
 }
 
 body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+   color: #3a3a3a;
 }
- /* headings and logo */
 
- h1, h2{
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
- }
- #logo{
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
- }
- #menu, #logo{
-    line-height: 75px;
- }
- #menu{
-    float: right;
-    font-size: 110%;
-    letter-spacing: 4px;
- }
- #menu li{
-    float: left;
-    list-style-type: none;
-    margin-right: 10px;
- }
- #menu a{
-    text-decoration: none;
-    color: inherit;
+/* headings and logo */
 
- }
- #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
- }
- .active{
-    border-bottom: 1px solid #3a3a3a;
- }
+h1,
+h2 {
+   font-family: Oswald, sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   color: #252525;
+}
 
- /* hero image*/
-#hero-outer{
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
+#logo {
+   float: left;
+   font-size: 280%;
+   margin-left: 30px;
+}
 
-    position: relative;
-    }
+#menu,
+#logo {
+   line-height: 75px;
+}
 
-#cover-text, #cover-text h2{
+#menu {
+   float: right;
+   font-size: 110%;
+   letter-spacing: 4px;
+}
+
+#menu li {
+   float: left;
+   list-style-type: none;
+   margin-right: 10px;
+}
+
+#menu a {
+   text-decoration: none;
+   color: inherit;
+
+}
+
+#menu a:hover {
+   border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+   border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image*/
+#hero-outer {
+   height: 600px;
+   width: 100%;
+   overflow: hidden;
+
+   position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
    color: white;
 }
 
- #hero-image{
-    height: 600px;
-    width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center center;
-/*animates zoom effect on loading page*/
-animation: hero-zoom 5s forwards; 
+#hero-image {
+   height: 600px;
+   width: 100%;
+   background: url(../images/hero-image.webp) no-repeat center center;
+   /*animates zoom effect on loading page*/
+   animation: hero-zoom 5s forwards;
 }
- /* creates the level of zoom for hero image */
- @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }    
- }
 
- #cover-text {
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+   from {
+      transform: scale(1);
+   }
+
+   to {
+      transform: scale(1.1);
+   }
+}
+
+#cover-text {
    font-size: 130%;
    font-family: Oswald, sans-serif;
    text-transform: uppercase;
@@ -95,30 +108,58 @@ animation: hero-zoom 5s forwards;
    bottom: 30px;
    right: 150px;
    position: absolute;
- }
+}
 
- /* club ethos */
+/* club ethos */
 
- #club-ethos{
+#club-ethos {
    height: 600px;
- }
+}
 
- #left-about {
+#left-about {
    padding-top: 30px;
    width: 33%;
    float: left;
-   background-color: red;
- }
+}
 
- #right-about {
+#right-about {
    padding-top: 30px;
    width: 33%;
    float: right;
-   background-color: silver;
- }
- #center-about {
+}
+
+#center-about {
    padding-top: 30px;
    width: 33%;
    margin: 0 auto;
    background-color: green;
- }
+}
+hr{
+   border-top: 1px solid #3a3a3a;
+   width: 100%;
+   margin: 5px;
+}
+
+.left-about-heading{
+   width: 60%;
+   float: right;
+   line-height: 20px;
+   clear: both;
+   margin-bottom: 50px;
+}
+
+.right-about-heading{
+   width: 60%;
+   float: left;
+   line-height: 20px;
+   clear: both;
+   margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+   text-align: right;
+}
+
+.right-about-heading p{
+   text-align: right;
+}

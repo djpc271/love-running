@@ -241,15 +241,16 @@ footer {
 }
 
 /* Form */
+
 .form-section {
    clear: left;
-   background: url("../images/formbg.jpg");
+   background: url(/assets/images/formbg.jpg);
    background-size: cover;
    background-position: center;
    height: 900px;
 }
 
-.signup-form{
+.signup-form {
    margin: 150px 10% 0 0;
    color: #fff;
    background-color: rgba(60, 60, 60, 0.6);
@@ -259,12 +260,12 @@ footer {
    padding: 30px;
 }
 
-.signup-form h2 {
+.signup-form > h2 {
    color: #fafafa;
    margin-bottom: 20px;
 }
 
-.text-input{
+.text-input {
    background: transparent;
    color: #fafafa;
    width: 100%;
@@ -274,11 +275,11 @@ footer {
    border-radius: 2px;
 }
 
-.text-input:hover{
-   border-color:#f16c6b;
+.text-input:hover {
+   border-color: #f16c6b;
 }
 
-.join-button{
+.join-button {
    margin-top: 20px;
    border-radius: 2px;
    padding: 15px 32px 15px 32px;
@@ -286,10 +287,10 @@ footer {
    font-size: 100%;
    background-color: #f16c6b;
    color: #fafafa;
-   display:block;
+   display: block;
 }
 
-.join-button:hover{
+.join-button:hover {
    background-color: #fafafa;
    color: #f16c6b;
 }
